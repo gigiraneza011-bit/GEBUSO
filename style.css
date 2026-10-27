@@ -1,7 +1,4 @@
-/* ========================================================= 
-   GEBUSO-SARL | GENERAL BUSINESS SOLUTIONS 
-   Brand Colors: Dark Blue + Gold + White 
-========================================================= */ 
+
  
 * { 
     margin: 0; 
@@ -38,11 +35,6 @@ ul {
     padding: 90px 0; 
 } 
  
- 
-/* ========================================================= 
-   HEADER 
-========================================================= */ 
- 
 .header { 
     position: fixed; 
     top: 0; 
@@ -60,10 +52,7 @@ ul {
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
-} 
- 
- 
-/* LOGO */ 
+}
  
 .logo { 
     display: flex; 
@@ -90,10 +79,7 @@ ul {
     font-size: 8px; 
     font-weight: 700; 
     letter-spacing: 1.5px; 
-} 
- 
- 
-/* NAVIGATION */ 
+}
  
 .nav-links { 
     display: flex; 
@@ -126,10 +112,7 @@ ul {
  
 .nav-links a:hover::after { 
     width: 100%; 
-} 
- 
- 
-/* NAV BUTTON */ 
+}
  
 .nav-button { 
     display: inline-block; 
@@ -146,12 +129,7 @@ ul {
     background: #c9a227; 
     border-color: #c9a227; 
     color: #102a43; 
-} 
- 
- 
-/* ========================================================= 
-   HERO 
-========================================================= */ 
+}
  
 .hero { 
     position: relative; 
@@ -254,12 +232,7 @@ ul {
     background: #c9a227; 
     border-color: #c9a227; 
     color: #102a43; 
-} 
- 
- 
-/* ========================================================= 
-   SECTION HEADINGS 
-========================================================= */ 
+}
  
 .section-heading { 
     max-width: 760px; 
@@ -287,12 +260,7 @@ ul {
 .section-heading p { 
     color: #657789; 
     font-size: 16px; 
-} 
-
-
-/* =========================================================
-   CLIENT NEEDS / HOW IT WORKS
-========================================================= */
+}
 
 .needs {
     position: relative;
@@ -406,9 +374,6 @@ ul {
     line-height: 1.65;
 }
 
-
-/* CONNECTORS BETWEEN PROCESS STEPS */
-
 .process-card:not(:last-child)::after {
     content: "→";
 
@@ -422,9 +387,6 @@ ul {
 
     z-index: 2;
 }
-
-
-/* FINAL STATEMENT */
 
 .needs-bottom {
     max-width: 700px;
@@ -444,12 +406,7 @@ ul {
 .needs-bottom span {
     color: #657789;
     font-size: 14px;
-}
-
-
-/* ========================================================= 
-   ABOUT 
-========================================================= */ 
+} 
  
 .about { 
     background: #ffffff; 
@@ -535,11 +492,6 @@ ul {
     color: #c9a227; 
 } 
  
- 
-/* ========================================================= 
-   MISSION & VISION 
-========================================================= */ 
- 
 .mission { 
     background: #f6f8fb; 
 } 
@@ -581,11 +533,6 @@ ul {
     color: #657789; 
     font-size: 15px; 
 } 
- 
- 
-/* ========================================================= 
-   SERVICES 
-========================================================= */ 
  
 .services { 
     background: #ffffff; 
@@ -651,12 +598,7 @@ ul {
  
 .service-card > a:hover { 
     color: #102a43; 
-} 
- 
- 
-/* ========================================================= 
-   WHY GEBUSO 
-========================================================= */ 
+}
  
 .why-us { 
     background: #f6f8fb; 
@@ -674,11 +616,6 @@ ul {
     color: #657789; 
     font-size: 15px; 
 } 
- 
- 
-/* ========================================================= 
-   VALUES 
-========================================================= */ 
  
 .values-list { 
     display: grid; 
@@ -710,12 +647,7 @@ ul {
     color: #657789; 
     font-size: 13px; 
     line-height: 1.6; 
-} 
- 
- 
-/* ========================================================= 
-   PROJECTS 
-========================================================= */ 
+}
  
 .projects { 
     background: #ffffff; 
@@ -765,12 +697,7 @@ ul {
     color: #657789; 
     font-size: 15px; 
     line-height: 1.8; 
-} 
- 
- 
-/* ========================================================= 
-   TRUSTED BY 
-========================================================= */ 
+}
  
 .trusted { 
     background: #f6f8fb; 
@@ -804,12 +731,7 @@ ul {
     font-size: 13px; 
     font-weight: 700; 
     text-align: center; 
-} 
- 
- 
-/* ========================================================= 
-   CTA 
-========================================================= */ 
+}
  
 .cta { 
     padding: 95px 0; 
@@ -828,12 +750,7 @@ ul {
     margin: 0 auto 30px; 
     color: #dbe4ec; 
     font-size: 16px; 
-} 
- 
- 
-/* ========================================================= 
-   FOOTER 
-========================================================= */ 
+}
  
 .footer { 
     padding-top: 55px; 
@@ -888,12 +805,7 @@ ul {
 .footer-bottom p { 
     color: #8795a5; 
     font-size: 12px; 
-} 
- 
- 
-/* ========================================================= 
-   TABLET 
-========================================================= */ 
+}
  
 @media (max-width: 1100px) { 
  
@@ -925,12 +837,7 @@ ul {
     .process-content p {
         font-size: 12px;
     }
-} 
- 
- 
-/* ========================================================= 
-   SMALL LAPTOP / TABLET 
-========================================================= */ 
+}
  
 @media (max-width: 850px) { 
  
@@ -1002,12 +909,7 @@ ul {
         transform: translateX(-50%);
         content: "↓";
     }
-} 
- 
- 
-/* ========================================================= 
-   MOBILE 
-========================================================= */ 
+}
  
 @media (max-width: 650px) { 
  
@@ -1080,19 +982,13 @@ ul {
  
     .hero-buttons .btn { 
         text-align: center; 
-    } 
- 
- 
-    /* HEADINGS */ 
+    }
  
     .section-heading h2, 
     .about-content h2, 
     .why-content h2 { 
         font-size: 31px; 
     }
-
-
-    /* PROCESS */
 
     .needs-intro {
         margin-bottom: 50px;
@@ -1174,9 +1070,6 @@ ul {
         font-size: 13px;
     }
  
- 
-    /* ABOUT */ 
- 
     .image-placeholder { 
         min-height: 300px; 
     } 
@@ -1185,19 +1078,13 @@ ul {
         font-size: 30px; 
     } 
  
- 
-    /* SERVICES */ 
- 
     .services-grid { 
         grid-template-columns: 1fr; 
     } 
  
     .service-card { 
         min-height: auto; 
-    } 
- 
- 
-    /* VALUES */ 
+    }
  
     .values-list { 
         grid-template-columns: 1fr; 
@@ -1222,15 +1109,9 @@ ul {
         font-size: 25px; 
     } 
  
- 
-    /* CLIENTS */ 
- 
     .clients-grid { 
         grid-template-columns: 1fr; 
-    } 
- 
- 
-    /* CTA */ 
+    }
  
     .cta { 
         padding: 70px 0; 
@@ -1239,12 +1120,7 @@ ul {
     .cta h2 { 
         font-size: 34px; 
     } 
-} 
- 
- 
-/* ========================================================= 
-   SMALL PHONES 
-========================================================= */ 
+}
  
 @media (max-width: 400px) { 
  
@@ -1265,9 +1141,6 @@ ul {
     .mission-card { 
         padding: 30px 24px; 
     }
-
-
-    /* PROCESS */
 
     .needs-intro h2 {
         font-size: 28px;
