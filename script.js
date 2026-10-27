@@ -1,12 +1,6 @@
-/* =========================================================
-   GEBUSO-SARL | WEBSITE JAVASCRIPT
-========================================================= */
+
 
 document.addEventListener("DOMContentLoaded", function () {
-
-    /* =====================================================
-       HEADER SCROLL EFFECT
-    ===================================================== */
 
     const header = document.querySelector(".header");
 
@@ -23,11 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
     }
-
-
-    /* =====================================================
-       SMOOTH SCROLLING
-    ===================================================== */
 
     const links = document.querySelectorAll('a[href^="#"]');
 
@@ -57,11 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
     });
-
-
-    /* =====================================================
-       ACTIVE NAVIGATION LINK
-    ===================================================== */
 
     const sections = document.querySelectorAll("section[id]");
     const navLinks = document.querySelectorAll(".nav-links a");
@@ -102,11 +86,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     updateActiveLink();
 
-
-    /* =====================================================
-       REVEAL ANIMATION
-    ===================================================== */
-
     const animatedElements = document.querySelectorAll(
         ".section-heading, .about-grid, .mission-card, .service-card, .value-item, .project-card, .client-card, .process-card"
     );
@@ -144,10 +123,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
-
-    /* =====================================================
-       CURRENT YEAR IN FOOTER
-    ===================================================== */
 
     const footerYear = document.querySelector(".footer-bottom p");
 
