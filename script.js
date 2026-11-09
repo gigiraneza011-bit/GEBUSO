@@ -3,6 +3,31 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     const header = document.querySelector(".header");
+    const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.querySelector(".nav-links");
+
+if (menuToggle && navLinks) {
+    menuToggle.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+
+        const isOpen = navLinks.classList.contains("active");
+
+        menuToggle.innerHTML = isOpen ? "✕" : "☰";
+        menuToggle.setAttribute("aria-expanded", isOpen);
+        menuToggle.setAttribute(
+            "aria-label",
+            isOpen ? "Close navigation menu" : "Open navigation menu"
+        );
+    });
+
+    navLinks.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+            navLinks.classList.remove("active");
+            menuToggle.innerHTML = "☰";
+            menuToggle.setAttribute("aria-expanded", "false");
+        });
+    });
+}
 
     if (header) {
 
@@ -132,9 +157,8 @@ document.addEventListener("DOMContentLoaded", function () {
         footerYear.innerHTML =
             footerYear.innerHTML.replace(/\d{4}/, currentYear);
 
-    }
+       }
 
-});
     // LANGUAGE SWITCHING
 
     const languageSelect = document.getElementById("languageSelect");
@@ -398,3 +422,7 @@ document.addEventListener("DOMContentLoaded", function () {
         changeLanguage("en");
 
     }
+    changeLanguage("en");
+
+}
+);

@@ -22,6 +22,13 @@
             <a href="index.html" class="logo">
     <img src="images/logo.png" alt="GEBUSO-SARL Logo">
 </a>
+<button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        type="button">
+    ☰
+</button>
+
 
             <ul class="nav-links">
 
@@ -50,13 +57,21 @@
             <a href="#contact" class="nav-button">
                 Get In Touch
             </a>
-            <div class="language-switcher">
-                <select id="languageSelect" aria-label="Select language">
-                     <option value="en">English</option>
-                     <option value="fr">Français</option>
-                     <option value="rn">Ikirundi</option>
-                </select>
-            </div>
+           <div class="language-switcher">
+
+    <label for="languageSelect">
+        <span>🌐</span>
+        <span>Language</span>
+        <span class="language-arrow">⌄</span>
+    </label>
+
+    <select id="languageSelect" aria-label="Select language">
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="rn">Ikirundi</option>
+    </select>
+
+</div>
 
         </nav>
 
@@ -156,7 +171,7 @@
 
                         </div>
 
-                    </div
+                    </div>
                     <div class="process-card">
 
                         <div class="process-title">
@@ -825,7 +840,42 @@
         <div class="container footer-content">
 
 
-            <div class="footer-brand">
+            <div class="contact-form">
+
+    <h2>Send Us a Message</h2>
+
+    <p>We would love to hear from you.</p>
+
+    <form action="https://formsubmit.co/gebusoofficial@outlook.com" method="POST">
+
+        <input type="hidden" name="_subject" value="New Message from GEBUSO Website">
+
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Full Name" required>
+        </div>
+
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+
+        <div class="form-group">
+            <input type="tel" name="phone" placeholder="Phone Number">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="subject" placeholder="Subject" required>
+        </div>
+
+        <div class="form-group">
+            <textarea name="message" placeholder="Write your message here..." rows="6" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+
+    </form>
+
+</div>
+<div class="footer-brand">
 
                 <h2>
                     GEBUSO
@@ -842,37 +892,33 @@
 
             </div>
 
+<div class="footer-contact">
 
-            <div class="footer-contact">
+    <p>
+        <strong>Location:</strong><br>
+        Bujumbura, Burundi
+    </p>
 
-                <p>
-                    Bujumbura, Burundi
-                </p>
+    <p>
+        <strong>Phone Number:</strong><br>
+        +257 68 374 9453
+    </p>
 
-                <p>
-                    +257 68 374 9453
-                </p>
+    <p>
+        <strong>Email Address:</strong><br>
+        gebusoofficial@outlook.com
+    </p>
 
-                <p>
-                    gebusosoc@gmail.com
-                </p>
+</div>
 
-            </div>
+</div>
 
-        </div>
+<div class="footer-bottom">
+    <p>© 2026 GEBUSO-SARL. All Rights Reserved.</p>
+</div>
 
-
-        <div class="footer-bottom">
-
-            <p>
-                © 2026 GEBUSO-SARL. All Rights Reserved.
-            </p>
-
-        </div>
-
-    </footer>
-    <script src="script.js"></script>
+</footer>
+<script src="script.js"></script>
 
 </body>
-
 </html>
