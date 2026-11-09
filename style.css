@@ -939,6 +939,31 @@ ul {
     .navbar { 
         height: 72px; 
     } 
+    .menu-toggle {
+    display: block;
+    pointer-events: auto;
+    position: relative;
+    z-index: 1003;
+}
+
+.nav-links {
+    display: none;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 15px 5%;
+    background: #ffffff;
+    box-shadow: 0 8px 18px rgba(16, 42, 67, 0.12);
+    z-index: 1002;
+}
+
+.nav-links.active {
+    display: flex;
+}
 
     .logo img {
         width: 95px;
@@ -959,7 +984,7 @@ ul {
     height: 72px;
 }
 
-..menu-toggle {
+.menu-toggle {
     display: block;
     pointer-events: auto;
     position: relative;
