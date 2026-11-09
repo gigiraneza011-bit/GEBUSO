@@ -121,7 +121,8 @@ ul {
     font-size: 30px;
     cursor: pointer;
     padding: 5px 10px;
-    z-index: 1002;
+    position: relative;
+    z-index: 1003;
 }
  
 .nav-button { 
