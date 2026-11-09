@@ -959,8 +959,11 @@ ul {
     height: 72px;
 }
 
-.menu-toggle {
+..menu-toggle {
     display: block;
+    pointer-events: auto;
+    position: relative;
+    z-index: 1003;
 }
 
 .nav-links {
@@ -975,7 +978,7 @@ ul {
     padding: 15px 5%;
     background: #ffffff;
     box-shadow: 0 8px 18px rgba(16, 42, 67, 0.12);
-    z-index: 1001;
+    z-index: 1002;
 }
 
 .nav-links.active {

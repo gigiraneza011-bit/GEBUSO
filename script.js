@@ -73,8 +73,7 @@ if (menuToggle && navLinks) {
     });
 
     const sections = document.querySelectorAll("section[id]");
-    const navLinks = document.querySelectorAll(".nav-links a");
-
+    const navLinkItems = document.querySelectorAll(".nav-links a");
     function updateActiveLink() {
 
         let currentSection = "";
@@ -93,8 +92,7 @@ if (menuToggle && navLinks) {
 
         });
 
-        navLinks.forEach(function (link) {
-
+        navLinkItems.forEach(function (link) {
             link.classList.remove("active");
 
             const linkTarget = link.getAttribute("href");
@@ -419,10 +417,8 @@ if (menuToggle && navLinks) {
             changeLanguage(this.value);
         });
 
-        changeLanguage("en");
+               changeLanguage("en");
 
     }
-    changeLanguage("en");
 
-}
-);
+});
